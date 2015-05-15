@@ -1,6 +1,6 @@
 # Danish Opinion Polls
 
-- 
+The `polls.csv` file consists of opinion polls on the support for the political parties represented in the Danish parliament as of 2011.
 
 ## In the future...
 
