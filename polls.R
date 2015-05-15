@@ -18,7 +18,7 @@ polls$date <- format(as.Date(c(paste(polls$year,
 # Remove polls from before September 15, 2011
 polls <- polls[polls$date > as.Date("2011-09-15"),]
 
-# Calcuate standard error for Venstre
+# Calcuate 95% confidence intervals for Venstre
 polls$ci_v <- 1.96 * sqrt( (polls$party_v * (100-polls$party_v) ) / polls$n)  
 
 # Plot polls for Venstre
