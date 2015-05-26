@@ -34,7 +34,7 @@ The `polls.R` file shows how one can access the data from [R](http://www.r-proje
  - [Danish Polls](https://github.com/ndarville/danish-polls) (by [@ndarville](https://github.com/ndarville))
  - [Wikipedia: Opinion polling for the Danish general election, 2015](http://en.wikipedia.org/wiki/Opinion_polling_for_the_Danish_general_election,_2015)
  - [TV2/Politik](http://politik.tv2.dk/)
- - [DR][http://dr.dk] 
+ - [DR](http://dr.dk)
  - [MetroXpress](http://www.mx.dk/)
  - [Jyllands-Posten](http://jyllands-posten.dk/)
  - [Børsen](http://borsen.dk)
