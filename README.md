@@ -3,7 +3,7 @@ Data on public support for political parties in Denmark, 2010-
 
 ### Description
 
-Collection of opinion polls conducted by _Megafon_, _Gallup_, _Greens_, _Rambøll_, _YouGov_, _Voxmeter_, _Epinion_, _Norstat_ and _Wilke_ in the period 2010-. 
+Collection of opinion polls conducted by _Megafon_, _Gallup_, _Greens_, _Rambøll_, _YouGov_, _Voxmeter_, _Epinion_, _Norstat_ and _Wilke_ for the period 2010-. 
 
 ### Repository content
 
