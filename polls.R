@@ -23,12 +23,11 @@ polls$ci_v <- 1.96 * sqrt( (polls$party_v * (100-polls$party_v) ) / polls$n)
 
 # Plot polls for Venstre
 ggplot(polls, aes(x=as.Date(date), y=party_v)) + 
-  geom_smooth(aes(ymin=party_v-ci_v, ymax=party_v+ci_v), 
-              fullrange=T, 
-              linetype=0,
-              stat="identity") +
-  geom_point(shape=1) + 
-  ggtitle("Venstre") +
+  geom_smooth(colour="blue") +
+  geom_point(size=.5, colour="blue") + 
+  geom_ribbon(aes(ymin=party_v-ci_v, ymax=party_v+ci_v), fill="blue", alpha=0.3) +
+  ggtitle("Venstres opbakning i meningsmålingerne") +
   ylab("Stemmer (%)") +
   xlab("") +
   theme_minimal()
+
