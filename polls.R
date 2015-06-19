@@ -15,11 +15,17 @@ polls$date <- format(as.Date(c(paste(polls$year,
                                      polls$day,
                                      sep="-")), by = "days"))
 
+
+# Calcuate 95% confidence intervals
+for(i in c("a", "b", "c", "f", "i", "k", "o", "v", "oe", "aa")) {
+  polls <- within(polls, {
+    assign(paste0("ci_", i), 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
+  }
+  )
+}
+
 # Remove polls from before September 15, 2011
 polls <- polls[polls$date > as.Date("2011-09-15"),]
-
-# Calcuate 95% confidence intervals for Venstre
-polls$ci_v <- 1.96 * sqrt( (polls$party_v * (100-polls$party_v) ) / polls$n)  
 
 # Plot polls for Venstre
 ggplot(polls, aes(x=as.Date(date), y=party_v)) + 
