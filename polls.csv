@@ -866,3 +866,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 865,Gallup,2016,2,12,22.6,6.1,3.1,4,9.4,0.7,20,17.7,8.5,7.7,1576,http://www.politiko.dk/barometeret
 866,Voxmeter,2016,2,14,23.8,6.1,3.2,4.7,8.1,0.7,20.7,16.7,9,6.8,1046,http://voxmeter.dk/index.php/meningsmalinger/
 867,Voxmeter,2016,2,21,25,6.2,2.9,4.6,8.9,0.8,19.8,16.8,8.7,6.3,1029,http://voxmeter.dk/index.php/meningsmalinger/
+868,Epinion,2016,2,21,24.3,6.9,3.6,4.9,7.9,,21.3,17.1,8.2,5.8,1596,http://www.dr.dk/nyheder/politik/meningsmaalinger/ny-maaling-historisk-lav-opbakning-til-venstre
