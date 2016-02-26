@@ -866,6 +866,7 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 865,Gallup,2016,2,12,22.6,6.1,3.1,4,9.4,0.7,20,17.7,8.5,7.7,1576,http://www.politiko.dk/barometeret
 866,Voxmeter,2016,2,14,23.8,6.1,3.2,4.7,8.1,0.7,20.7,16.7,9,6.8,1046,http://voxmeter.dk/index.php/meningsmalinger/
 867,Voxmeter,2016,2,21,25,6.2,2.9,4.6,8.9,0.8,19.8,16.8,8.7,6.3,1029,http://voxmeter.dk/index.php/meningsmalinger/
-868,Epinion,2016,2,21,24.3,6.9,3.6,4.9,7.9,,21.3,17.1,8.2,5.8,1596,http://www.dr.dk/nyheder/politik/meningsmaalinger/ny-maaling-historisk-lav-opbakning-til-venstre
+868,Epinion,2016,2,23,24.3,6.9,3.6,4.9,7.9,,21.3,17.1,8.2,5.8,1596,http://www.dr.dk/nyheder/politik/meningsmaalinger/ny-maaling-historisk-lav-opbakning-til-venstre
 869,Norstat,2016,2,21,24.3,4.6,2.7,6,6.9,0.8,21.9,17,9.3,6.1,1000,http://www.altinget.dk/artikel/ny-maaling-venstre-gaar-tilbage
 870,Megafon,2016,2,25,23.4,7,4.3,4.4,8.1,0.4,20.5,16.2,8.8,6.5,1089,http://nyheder.tv2.dk/politik/2016-02-25-ny-maaling-loekke-staar-til-vaelgerlussing-hvis-valget-kommer-nu
+871,Gallup,2016,2,26,23.8,7.2,5.1,4.4,6.9,0.9,19.3,17.1,8.6,6.7,1010,http://www.politiko.dk/nyheder/de-konservative-paa-markant-fremmarch-under-opgoeret-med-loekke
