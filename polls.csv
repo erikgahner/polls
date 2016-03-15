@@ -872,3 +872,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 871,Gallup,2016,2,26,23.8,7.2,5.1,4.4,6.9,0.9,19.3,17.1,8.6,6.7,1010,http://www.politiko.dk/nyheder/de-konservative-paa-markant-fremmarch-under-opgoeret-med-loekke
 872,Voxmeter,2016,2,28,24.5,5.7,3.3,4.1,8.7,0.8,20.3,17.2,9.2,5.9,1029,http://voxmeter.dk/index.php/meningsmalinger/
 873,Greens,2016,3,1,23.6,6.1,4.3,4.8,7.3,0.7,18.8,18.1,9.1,6.6,1211,http://www.politiko.dk/barometeret
+874,Voxmeter,2016,3,6,25,5.1,3.3,3.9,8,0.7,20.1,17.7,9.9,6.2,1031,http://voxmeter.dk/index.php/meningsmalinger/
+875,Gallup,2016,3,10,25.2,4.9,3.1,3.4,7.4,0.5,20.9,18.8,9.8,5.8,1520,http://www.politiko.dk/barometeret
+876,Voxmeter,2016,3,12,25.3,4.9,3,4.5,7.3,0.7,19.8,18.4,8.9,6.9,1023,http://voxmeter.dk/index.php/meningsmalinger/
