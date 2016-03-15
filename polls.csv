@@ -875,3 +875,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 874,Voxmeter,2016,3,6,25,5.1,3.3,3.9,8,0.7,20.1,17.7,9.9,6.2,1031,http://voxmeter.dk/index.php/meningsmalinger/
 875,Gallup,2016,3,10,25.2,4.9,3.1,3.4,7.4,0.5,20.9,18.8,9.8,5.8,1520,http://www.politiko.dk/barometeret
 876,Voxmeter,2016,3,12,25.3,4.9,3,4.5,7.3,0.7,19.8,18.4,8.9,6.9,1023,http://voxmeter.dk/index.php/meningsmalinger/
+877,Norstat,2016,3,14,25.1,5.3,2.4,3.7,7.1,,21.3,18.2,9.2,6.4,1000,http://www.altinget.dk/artikel/ny-maaling-venstre-gaar-frem-efter-regeringskrise
