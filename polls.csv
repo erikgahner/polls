@@ -883,4 +883,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 882,YouGov,2016,3,28,24.8,4.2,3.4,3.7,8.4,1,20.5,18.3,7.7,8,2043,http://www.mx.dk/nyheder/danmark/story/26647249
 883,YouGov,2016,3,6,23.7,5.3,3.6,5.2,8.7,1,19.8,18,8.8,5.8,1011,http://www.mx.dk/nyheder/danmark/story/19009206
 884,Voxmeter,2016,4,3,24.8,5.3,3,4,7.3,0.7,20.6,17.9,8.4,7.8,1028,http://voxmeter.dk/index.php/meningsmalinger/
-885,Greens,2016,4,3,23.9,5.5,3.4,4.1,6.3,0.3,21.2,17.4,9.6,7.8,1259,http://www.politiko.dk/barometeret
+885,Greens,2016,3,30,23.9,5.5,3.4,4.1,6.3,0.3,21.2,17.4,9.6,7.8,1259,http://www.politiko.dk/barometeret
+886,Gallup,2016,4,7,25.8,4.9,3.3,4.7,7.7,0.5,19.5,18.4,8.3,6.6,1619,http://www.politiko.dk/barometeret
+887,Voxmeter,2016,4,10,25.6,4.8,3.3,4.8,6.7,0.6,20.3,18.1,8.5,6.8,1027,http://voxmeter.dk/index.php/meningsmalinger/
