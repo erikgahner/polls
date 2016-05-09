@@ -895,3 +895,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 894,YouGov,2016,4,11,23.3,5.5,4,4.2,8,0.8,19.4,18.7,8.5,7.6,1402,http://www.mx.dk/nyheder/danmark/story/20170441
 895,YouGov,2016,4,25,26.4,4.1,3.2,4.4,9.3,0.6,17.8,17.7,8.7,7.9,1416,http://www.mx.dk/nyheder/danmark/story/20170441
 896,Voxmeter,2016,5,1,26.7,4,2.3,4.2,8.3,0.7,20.4,17.9,8.1,7.3,1024,http://voxmeter.dk/index.php/meningsmalinger/
+897,Gallup,2016,5,5,25.4,5,3.9,3.8,7.6,0.8,18.9,19,7.4,7.6,1463,http://www.politiko.dk/barometeret
+898,Voxmeter,2016,5,8,25.5,3.8,3.1,3.9,8.1,0.5,19.9,18.9,8.6,7.5,1043,http://voxmeter.dk/index.php/meningsmalinger/
