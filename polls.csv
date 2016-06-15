@@ -964,3 +964,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 963,Greens,2016,6,2,25.7,5.4,3.2,5.1,6.5,0.7,19.7,16.6,9,7.8,1248,http://www.politiko.dk/barometeret
 964,Voxmeter,2016,6,5,25.8,4.9,2.9,4.6,7.4,0.8,19.6,17.3,8,8.4,1039,http://voxmeter.dk/index.php/meningsmalinger/
 965,Gallup,2016,6,9,25.1,4.6,3.5,4.6,7.3,0.7,19.8,18.9,8.2,6.9,1570,http://www.politiko.dk/barometeret
+966,Voxmeter,2016,6,12,25.4,4.3,2.9,4,7.9,0.7,20.9,18.1,8.3,7.4,1032,http://voxmeter.dk/index.php/meningsmalinger/
