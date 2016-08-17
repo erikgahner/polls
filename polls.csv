@@ -971,3 +971,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 970,Voxmeter,2016,7,3,25.3,4.6,3.4,4.4,7.3,0.7,20.3,18.1,8.4,7,1024,http://voxmeter.dk/index.php/meningsmalinger/
 971,Greens,2016,8,3,26.5,5.3,3.7,4.2,7.6,1.1,19.1,18.4,7.4,6,1245,
 972,Voxmeter,2016,8,7,26.1,4.2,3.6,4.5,7,1.1,21.4,16.4,7.5,7.5,1041,http://voxmeter.dk/index.php/meningsmalinger/
+973,Gallup,2016,8,11,24.8,6.2,3.5,3.6,7.4,0.7,19.9,18.7,7.9,6.3,1528,http://www.politiko.dk/barometeret
+974,Voxmeter,2016,8,13,25.6,4.7,3,4.8,7.4,0.7,21.2,16.1,8.3,7.8,1037,http://voxmeter.dk/index.php/meningsmalinger/
+975,Norstat,2016,8,15,24.6,5.1,4.3,4.2,6.9,0.4,21.1,18.8,7.1,6.8,1000,http://www.altinget.dk/artikel/ny-maaling-nu-staar-blaa-blok-til-flertal
