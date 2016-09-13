@@ -980,3 +980,7 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_f,party_i,party_k,pa
 979,Epinion,2016,8,24,26.3,4.9,2.6,4.8,7.1,,21.9,17.3,8.2,6.8,1578,http://www.dr.dk/nyheder/politik/ny-maaling-konservative-spejder-langt-efter-oeget-opbakning
 980,Voxmeter,2016,8,28,26.0,5.3,3.2,3.8,9.1,0.6,19.3,17.5,8.3,6.3,1029,http://voxmeter.dk/index.php/meningsmalinger/
 981,Voxmeter,2016,9,4,26.9,5.8,3.2,4.3,8.5,0.6,19.0,16.9,8.1,6.1,1023,http://voxmeter.dk/index.php/meningsmalinger/
+982,Greens,2016,9,7,26.4,5.4,2.9,5.5,8.2,1.0,18.3,16.5,9.5,5.6,1245,http://www.politiko.dk/barometeret
+983,Gallup,2016,9,8,24.8,5.3,3.5,4.6,7.7,0.8,18.8,19.4,8.5,5.1,1529,http://www.politiko.dk/barometeret
+984,Voxmeter,2016,9,10,27.3,5.1,3.1,3.8,8.0,0.6,19.0,18.2,8.9,5.6,1044,http://voxmeter.dk/index.php/meningsmalinger/
+985,Norstat,2016,9,11,27.3,5.2,2.1,4.80,5.8,0.6,22.40,17.40,8.6,5,1000,http://www.altinget.dk/artikel/maaling-roed-blok-staar-til-at-overtage-magten
