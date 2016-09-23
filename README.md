@@ -17,6 +17,7 @@ The `polls.csv` data file consists of opinion polls on the support for nine poli
  - `party_a` = Support for _Socialdemokraterne_ (in %)
  - `party_b` = Support for _Det Radikale Venstre_ (in %)
  - `party_c` = Support for _Konservative_ (in %)
+ - `party_d` = Support for _Nye Borgerlige_ (in %)
  - `party_f` = Support for _SF_ (in %)
  - `party_i` = Support for _Liberal Alliance_ (in %)
  - `party_k` = Support for _Kristendemokraterne_ (in %) (note: limited data)
@@ -30,6 +31,7 @@ The `polls.R` file shows how one can access the data from [R](http://www.r-proje
 
 ### Data sources
 
+ - [Voxmeter](voxmeter.dk/index.php/meningsmalinger/)
  - [Berlingske Barometer](http://www.politiko.dk/barometeret)
  - [Ritzau Index](https://www.ritzau.dk/Produkter%20og%20Services/Ritzau%20Index.aspx)
  - [Danish Polls](https://github.com/ndarville/danish-polls) (by [@ndarville](https://github.com/ndarville))
