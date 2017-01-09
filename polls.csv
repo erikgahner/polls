@@ -1022,3 +1022,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1021,Epinion,2016,12,19,26.8,5.5,4.1,2.9,5.0,6.9,,17.1,18.2,8.1,5.5,1675,http://www.dr.dk/nyheder/politik/foerste-maaling-efter-ny-regering-konservative-rykker-frem
 1022,YouGov,2016,11,28,28.1,4.5,4.0,4.3,4.8,6.3,0.7,15.0,17.6,8.5,6.3,1605,http://www.mx.dk/nyheder/danmark/story/31140488
 1023,YouGov,2016,12,19,26.5,6.0,4.3,3.6,5.1,7.5,0.8,13.6,18.1,8.1,6.5,1444,http://www.mx.dk/nyheder/danmark/story/31140488
+1024,Gallup,2017,1,5,25.9,5.7,3.6,2.6,5.4,5.6,0.6,17.8,20,7.4,5,1522,http://www.b.dk/politiko/barometeret
+1025,Voxmeter,2017,1,8,27.3,4.6,4.4,0.9,4.9,6.2,0.8,17.1,18.5,9.1,6,1047,http://voxmeter.dk/index.php/meningsmalinger/
