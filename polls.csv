@@ -1032,3 +1032,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1031,Voxmeter,2017,1,29,29.0,6.4,3.3,0.8,4.3,6.3,1.1,16.7,18.6,8.6,4.9,1023,http://voxmeter.dk/index.php/meningsmalinger/
 1032,Voxmeter,2017,2,5,27.9,5.4,3.9,1.2,4.6,5.8,0.7,17.1,18.9,8.8,5.6,1031,http://voxmeter.dk/index.php/meningsmalinger/
 1033,Greens,2017,2,1,27.2,7.2,4.2,2.5,4.2,5.8,1.0,17.0,16.2,7.5,7.0,1230,http://www.b.dk/politiko/barometeret
+1034,Gallup,2017,2,9,26.4,5.2,4.4,1.7,4.7,6.8,0.6,15.8,20.2,8.7,5.5,1520,http://www.b.dk/politiko/barometeret
+1035,Voxmeter,2017,2,11,27.0,5.2,3.8,1.2,5.9,6.4,0.7,17.4,18.7,7.9,5.7,1025,http://voxmeter.dk/index.php/meningsmalinger/
