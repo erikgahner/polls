@@ -1035,3 +1035,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1034,Gallup,2017,2,9,26.4,5.2,4.4,1.7,4.7,6.8,0.6,15.8,20.2,8.7,5.5,1520,http://www.b.dk/politiko/barometeret
 1035,Voxmeter,2017,2,11,27.0,5.2,3.8,1.2,5.9,6.4,0.7,17.4,18.7,7.9,5.7,1025,http://voxmeter.dk/index.php/meningsmalinger/
 1036,Voxmeter,2017,2,19,27.3,5.2,4.1,1.5,5.1,5.7,0.7,16.8,18.2,9.4,5.8,1023,http://voxmeter.dk/index.php/meningsmalinger/
+1037,Norstat,2017,2,22,28.1,5.8,4.9,1.5,5.1,6.3,1.0,16.3,18.0,8.3,4.8,1000,http://www.altinget.dk/artikel/ny-maaling-roed-blok-staar-til-at-faa-magten
+1038,Megafon,2017,2,23,24.0,7.0,4.7,4.8,6.5,4.7,0.6,14.9,16.9,8.9,6.9,990,http://politiken.dk/indland/politik/art5845750/V%C3%A6lgerne-giver-Liberal-Alliance-t%C3%A6sk
