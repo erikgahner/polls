@@ -1039,3 +1039,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1038,Megafon,2017,2,23,24.0,7.0,4.7,4.8,6.5,4.7,0.6,14.9,16.9,8.9,6.9,990,http://politiken.dk/indland/politik/art5845750/V%C3%A6lgerne-giver-Liberal-Alliance-t%C3%A6sk
 1039,Epinion,2017,2,20,29.0,5.4,3.6,2.0,5.1,6.1,,17.6,18.0,8.3,4.8,1787,http://www.dr.dk/nyheder/politik/maaling-klart-flertal-til-mette-frederiksen-co
 1040,Voxmeter,2017,2,26,28.7,6.4,3.6,1.5,4.9,6.9,1.0,15.7,17.2,8.6,5.5,1081,http://voxmeter.dk/index.php/meningsmalinger/
+1041,YouGov,2017,3,1,25.2,5.8,4.6,3.5,5.3,7.4,0.7,16.1,16.6,8.6,6.1,1444,http://www.b.dk/politiko/barometeret
+1042,Greens,2017,3,2,26.3,5.8,4.2,2.3,4.8,5.5,0.5,17.4,18.8,8.6,5.3,1253,http://www.b.dk/politiko/barometeret
+1043,Voxmeter,2017,3,5,28.6,5.3,4.7,1.4,4.0,5.4,0.7,17.4,18.2,8.5,5.5,1034,http://voxmeter.dk/index.php/meningsmalinger/
