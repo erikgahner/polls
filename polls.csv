@@ -1042,3 +1042,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1041,YouGov,2017,3,1,25.2,5.8,4.6,3.5,5.3,7.4,0.7,16.1,16.6,8.6,6.1,1444,http://www.b.dk/politiko/barometeret
 1042,Greens,2017,3,2,26.3,5.8,4.2,2.3,4.8,5.5,0.5,17.4,18.8,8.6,5.3,1253,http://www.b.dk/politiko/barometeret
 1043,Voxmeter,2017,3,5,28.6,5.3,4.7,1.4,4.0,5.4,0.7,17.4,18.2,8.5,5.5,1034,http://voxmeter.dk/index.php/meningsmalinger/
+1044,Wilke,2017,3,8,26.3,5.8,5.3,2.4,5.3,6.2,,16.6,17.4,8.4,6.3,2004,http://jyllands-posten.dk/politik/ECE9431677/maaling-status-quo-efter-100-dage-med-trekloeverregeringen/
+1045,Gallup,2017,3,9,26.4,5.7,5.0,2.5,5.9,5.2,0.6,18.1,18.1,6.8,5.3,1532,http://www.b.dk/politiko/barometeret
+1046,Voxmeter,2017,3,11,27.4,5.1,5.0,0.8,5.3,6.1,0.7,18.7,16.6,7.9,6.0,1034,http://voxmeter.dk/index.php/meningsmalinger/
