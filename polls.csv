@@ -1045,3 +1045,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1044,Wilke,2017,3,8,26.3,5.8,5.3,2.4,5.3,6.2,,16.6,17.4,8.4,6.3,2004,http://jyllands-posten.dk/politik/ECE9431677/maaling-status-quo-efter-100-dage-med-trekloeverregeringen/
 1045,Gallup,2017,3,9,26.4,5.7,5.0,2.5,5.9,5.2,0.6,18.1,18.1,6.8,5.3,1532,http://www.b.dk/politiko/barometeret
 1046,Voxmeter,2017,3,11,27.4,5.1,5.0,0.8,5.3,6.1,0.7,18.7,16.6,7.9,6.0,1034,http://voxmeter.dk/index.php/meningsmalinger/
+1047,YouGov,2017,3,13,26.2,5.7,4.5,4.5,5.6,6.3,0.6,15.2,18.1,8.6,4.5,1424,http://www.b.dk/politiko/barometeret
+1048,Voxmeter,2017,3,19,27.5,4.7,4.7,0.9,5.0,5.4,0.7,18.7,17.8,8.0,6.6,1054,http://voxmeter.dk/index.php/meningsmalinger/
