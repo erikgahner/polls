@@ -1047,3 +1047,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1046,Voxmeter,2017,3,11,27.4,5.1,5.0,0.8,5.3,6.1,0.7,18.7,16.6,7.9,6.0,1034,http://voxmeter.dk/index.php/meningsmalinger/
 1047,YouGov,2017,3,13,26.2,5.7,4.5,4.5,5.6,6.3,0.6,15.2,18.1,8.6,4.5,1424,http://www.b.dk/politiko/barometeret
 1048,Voxmeter,2017,3,19,27.5,4.7,4.7,0.9,5.0,5.4,0.7,18.7,17.8,8.0,6.6,1054,http://voxmeter.dk/index.php/meningsmalinger/
+1049,Norstat,2017,3,20,25.9,5.8,5.1,2.2,6.0,7.1,0.0,18.0,15.1,7.8,6.1,1501,http://www.altinget.dk/artikel/ny-maaling-konservative-gaar-frem
+1050,Epinion,2017,3,21,27.7,5.6,4.1,1.9,4.6,6.4,,18.3,18.6,8.2,4.5,1569,http://www.dr.dk/nyheder/politik/roed-blok-fastholder-forspringet-til-de-blaa-partier
+1051,Voxmeter,2017,3,26,28.4,4.3,4.0,1.1,4.5,6.8,0.5,17.0,18.0,9.1,6.1,1026,http://voxmeter.dk/index.php/meningsmalinger/
