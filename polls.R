@@ -17,7 +17,7 @@ polls$date <- format(as.Date(c(paste(polls$year,
 
 
 # Calcuate 95% confidence intervals
-for(i in c("a", "b", "c", "f", "i", "k", "o", "v", "oe", "aa")) {
+for(i in c("a", "b", "c", "d", "f", "i", "k", "o", "v", "oe", "aa")) {
   polls <- within(polls, {
     assign(paste0("ci_", i), 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
   }
@@ -29,10 +29,9 @@ polls <- polls[polls$date > as.Date("2011-09-15"),]
 
 # Plot polls for Venstre
 ggplot(polls, aes(x=as.Date(date), y=party_v)) + 
-  geom_smooth(colour="blue") +
-  geom_point(size=.5, colour="blue") + 
-  geom_ribbon(aes(ymin=party_v-ci_v, ymax=party_v+ci_v), fill="blue", alpha=0.3) +
-  ggtitle("Venstres opbakning i meningsmålingerne") +
+  geom_smooth(colour="blue", method="loess", se=FALSE) +
+  geom_point(size=1, alpha=0.5, colour="blue") + 
+  ggtitle("Venstres opbakning i meningsmÃ¥lingerne") +
   ylab("Stemmer (%)") +
   xlab("") +
   theme_minimal()
