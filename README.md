@@ -3,7 +3,7 @@ Data on public support for political parties in Denmark, 2010-
 
 ### Description
 
-Collection of opinion polls conducted by _Megafon_, _Gallup_, _Greens_, _Rambøll_, _YouGov_, _Voxmeter_, _Epinion_, _Norstat_ and _Wilke_ for the period 2010-. 
+Collection of opinion polls conducted by _Megafon_, _Gallup_, _Greens_, _Rambøll_, _YouGov_, _Voxmeter_, _Epinion_, _Norstat_ and _Wilke_ for the period 2010-.
 
 ### Repository content
 
@@ -23,11 +23,12 @@ The `polls.csv` data file consists of opinion polls on the support for nine poli
  - `party_k` = Support for _Kristendemokraterne_ (in %) (note: limited data)
  - `party_o` = Support for _Dansk Folkeparti_ (in %)
  - `party_v` = Support for _Venstre_ (in %)
+ - `party_oe`= Support for _Enhedslisten_ (in %)
  - `party_aa` = Support for _Alternativet_ (in %)
  - `n` = Sample size
  - `source` = URL to source (note: limited data)
 
-The `polls.R` file shows how one can access the data from [R](http://www.r-project.org/) and create a simple plot with the trend for _Venstre_ from the 2011 election till today. 
+The `polls.R` file shows how one can access the data from [R](http://www.r-project.org/) and create a simple plot with the trend for _Venstre_ from the 2011 election till today.
 
 ### Data sources
 
