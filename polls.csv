@@ -1090,3 +1090,12 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1089,Norstat,2016,6,13,25.7,5.5,3.1,,4.9,5.4,0.9,19.5,18.3,8.7,6.9,1000,https://www.altinget.dk/artikel/ny-maaling-roed-blok-staar-til-at-overtage-magten
 1090,Voxmeter,2017,8,27,26.1,5.1,3.6,1.2,5.5,6.9,0.7,18.4,18.6,8.6,5.0,1030,https://voxmeter.dk/index.php/meningsmalinger/
 1091,Epinion,2017,8,22,28.4,4.5,4.5,2.1,5.6,6.9,,16.7,18.3,7.4,5.5,1624,http://www.dr.dk/nyheder/politik/ny-maaling-konservative-gaar-frem
+1092,YouGov,2015,9,28,25.9,4.7,3.1,,4.9,9.1,0.6,21.9,17.4,7.6,4.8,1373,https://www.b.dk/politiko/barometeret
+1093,YouGov,2016,1,11,23.2,5.5,4.1,,4.8,7.9,0.6,20.3,18.8,8.7,6.1,1420,https://www.b.dk/politiko/barometeret
+1094,YouGov,2016,2,21,22.1,5.7,4.6,,4.7,8.6,0.5,20.0,16.3,8.6,8.9,1407,https://www.b.dk/politiko/barometeret
+1095,YouGov,2016,4,26,26.4,4.1,3.2,,4.4,9.3,0.6,17.8,17.7,8.7,7.9,1416,https://www.b.dk/politiko/barometeret
+1096,YouGov,2016,6,6,24.7,5.9,3.5,,4.4,8.6,1.1,19.3,16.9,8.5,7.2,1420,https://www.b.dk/politiko/barometeret
+1097,YouGov,2016,6,20,23.9,4.4,3.5,,4.1,8.7,0.7,19.0,19.2,9.6,6.9,1420,https://www.b.dk/politiko/barometeret
+1098,YouGov,2016,8,23,25.9,4.5,3.6,,4.0,9.4,1.0,19.6,17.1,8.5,6.4,1388,https://www.b.dk/politiko/barometeret
+1099,YouGov,2016,9,5,26.1,5.7,3.0,,4.4,7.5,0.9,19.9,18.5,7.9,6.1,1388,https://www.b.dk/politiko/barometeret
+1100,YouGov,2017,2,6,25.5,5.5,4.7,4.1,5.2,7.0,0.3,14.8,18.7,8.1,6.1,1444,https://www.b.dk/politiko/barometeret
