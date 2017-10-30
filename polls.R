@@ -53,110 +53,121 @@ theme_polls <- function () { # Build on: https://medium.com/@henry.partridge/dev
 
 png('figs/support-a.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_a)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#E3515D") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-b.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_b)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#EB4295") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-c.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_c)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#429969") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-d.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_d)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#05454F") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-f.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_f)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#9C1D2A") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-i.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_i)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#EE9A5F") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-k.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_k)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#F4CE97") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-o.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_o)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#3D6F8D") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-v.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_v)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#459BC8") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-oe.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_oe)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#914A4F") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
 
 png('figs/support-aa.png', height=4, width=7, units='in', res=250)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_aa)) + 
-  geom_smooth(se=FALSE, method="loess", colour="gray80") +
-  geom_point(aes(colour=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#AEFEAF") +
+  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
+  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
   theme_polls()
 dev.off()
