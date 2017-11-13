@@ -1130,3 +1130,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1129,Voxmeter,2017,10,29,26.6,4.8,3.9,1.2,4.7,5.8,0.8,19.2,19.4,8.8,4.7,1049,https://voxmeter.dk/index.php/meningsmalinger/
 1130,Norstat,2017,10,31,28.0,4.3,3.9,2.2,4.5,5.1,,17.0,20.5,8.4,4.5,1503,https://www.altinget.dk/artikel/maaling-blaa-blok-haler-ind
 1131,Voxmeter,2017,11,5,26.1,5.5,3.9,0.8,4.7,5.9,0.3,19.7,19.0,8.4,5.6,1035,https://voxmeter.dk/index.php/meningsmalinger/
+1132,Gallup,2017,11,9,29.6,4.7,4.8,1.8,5.2,4.6,0.8,16.4,20.3,6.7,4.7,1507,https://www.b.dk/politiko/barometeret
+1133,Voxmeter,2017,11,11,26.8,5.3,5.0,0.8,4.5,5.3,0.8,17.5,19.6,8.4,5.5,1030,https://voxmeter.dk/index.php/meningsmalinger/#
