@@ -1141,3 +1141,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1140,Voxmeter,2017,12,4,27.1,5.1,4.8,1.1,4.3,6.7,0.7,18.0,19.1,8.7,4.1,1047,https://voxmeter.dk/index.php/meningsmalinger/
 1141,Gallup,2017,12,7,29.0,5.6,4.9,2.3,4.7,4.4,0.6,17.5,19.4,6.7,4.8,1497,https://www.b.dk/politiko/barometeret
 1142,Voxmeter,2017,12,9,27.8,5.4,4.0,0.7,5.6,5.8,1.0,16.9,19.1,8.9,4.6,1019,https://voxmeter.dk/index.php/meningsmalinger/
+1143,YouGov,2017,10,29,24.2,4.5,5.0,4.9,4.9,6.8,0.8,17.1,17.3,8.6,6.0,1635,https://www.b.dk/politiko/barometeret
