@@ -1160,3 +1160,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1159,Greens,2018,2,1,28.2,5.1,4.6,1.8,4.5,5.2,0.7,16.5,19.8,9.1,4.3,1118,https://www.b.dk/politiko/barometeret
 1160,Voxmeter,2018,2,10,29.5,5.1,4.1,1.4,5.0,4.3,0.9,18.8,19.1,7.7,4.0,1037,https://voxmeter.dk/index.php/meningsmalinger/
 1161,Gallup,2018,2,8,29.0,5.2,4.8,1.5,4.9,5.2,0.9,15.5,19.4,9.1,4.3,1518,https://www.b.dk/politiko/barometeret
+1162,Epinion,2018,2,14,28.0,5.1,4.6,2.1,5.4,5.3,0.7,17.2,18.7,8.0,4.8,1573,https://www.dr.dk/nyheder/politik/maaling-hvis-kvinderne-bestemte-var-danmark-roedt
+1163,Voxmeter,2018,2,18,28.4,5.0,4.0,1.5,4.5,4.8,0.9,18.2,20.0,8.2,4.1,1026,https://voxmeter.dk/index.php/meningsmalinger/
