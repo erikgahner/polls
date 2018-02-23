@@ -51,7 +51,7 @@ theme_polls <- function () { # Build on: https://medium.com/@henry.partridge/dev
     )
 }
 
-png('figs/support-a.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-a.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_a)) + 
   geom_smooth(se=FALSE, method="loess", colour="#E3515D") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -62,7 +62,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_a)) +
   theme_polls()
 dev.off()
 
-png('figs/support-b.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-b.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_b)) + 
   geom_smooth(se=FALSE, method="loess", colour="#EB4295") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -73,7 +73,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_b)) +
   theme_polls()
 dev.off()
 
-png('figs/support-c.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-c.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_c)) + 
   geom_smooth(se=FALSE, method="loess", colour="#429969") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -84,7 +84,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_c)) +
   theme_polls()
 dev.off()
 
-png('figs/support-d.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-d.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_d)) + 
   geom_smooth(se=FALSE, method="loess", colour="#05454F") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -95,7 +95,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_d)) +
   theme_polls()
 dev.off()
 
-png('figs/support-f.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-f.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_f)) + 
   geom_smooth(se=FALSE, method="loess", colour="#9C1D2A") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -106,7 +106,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_f)) +
   theme_polls()
 dev.off()
 
-png('figs/support-i.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-i.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_i)) + 
   geom_smooth(se=FALSE, method="loess", colour="#EE9A5F") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -117,7 +117,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_i)) +
   theme_polls()
 dev.off()
 
-png('figs/support-k.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-k.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_k)) + 
   geom_smooth(se=FALSE, method="loess", colour="#F4CE97") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -128,7 +128,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_k)) +
   theme_polls()
 dev.off()
 
-png('figs/support-o.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-o.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_o)) + 
   geom_smooth(se=FALSE, method="loess", colour="#3D6F8D") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -139,7 +139,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_o)) +
   theme_polls()
 dev.off()
 
-png('figs/support-v.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-v.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_v)) + 
   geom_smooth(se=FALSE, method="loess", colour="#459BC8") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -150,7 +150,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_v)) +
   theme_polls()
 dev.off()
 
-png('figs/support-oe.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-oe.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_oe)) + 
   geom_smooth(se=FALSE, method="loess", colour="#914A4F") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
@@ -161,7 +161,7 @@ ggplot(polls.10m, aes(x=as.Date(date), y=party_oe)) +
   theme_polls()
 dev.off()
 
-png('figs/support-aa.png', width = 642, height = 367.7, units = "px", res = 135)
+png('figs/support-aa.png', width = 642, height = 500, units = "px", res = 140)
 ggplot(polls.10m, aes(x=as.Date(date), y=party_aa)) + 
   geom_smooth(se=FALSE, method="loess", colour="#AEFEAF") +
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
