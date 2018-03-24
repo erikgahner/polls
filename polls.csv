@@ -1168,3 +1168,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1167,Gallup,2018,3,8,26.1,6.6,3.8,1.9,5.8,4.2,0.7,17.8,19.8,7.8,5.4,1590,https://www.b.dk/politiko/barometeret
 1168,Voxmeter,2018,3,11,26.8,4.9,4.3,1.5,5.2,5.6,0.8,18.0,19.5,8.8,4.5,1043,https://voxmeter.dk/index.php/meningsmalinger/
 1169,Voxmeter,2018,3,18,28.0,4.4,4.7,1.4,5.0,5.1,0.7,18.0,18.9,9.7,4.1,1063,https://voxmeter.dk/index.php/meningsmalinger/
+1170,Norstat,2018,3,20,25.0,5.7,4.7,2.1,5.4,4.3,0.6,18.5,19.3,9.2,4.6,1501,https://www.altinget.dk/artikel/ny-maaling-mette-frederiksen-er-slaaet-tilbage-til-start
+1171,Megafon,2018,3,22,25.4,6.3,5.6,2.1,6.3,3.9,0.5,16.6,18.8,10.3,3.8,1022,http://nyheder.tv2.dk/politik/2018-03-22-ny-maaling-dansk-folkeparti-ligger-fortsat-langt-fra-valgresultatet
