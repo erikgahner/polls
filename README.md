@@ -33,7 +33,7 @@ The `polls.R` file shows how one can access the data from [R](http://www.r-proje
 ### Data sources
 
  - [Voxmeter](voxmeter.dk/index.php/meningsmalinger/)
- - [Berlingske Barometer](http://www.politiko.dk/barometeret)
+ - [Berlingske Barometer](https://www.berlingske.dk/barometeret)
  - [Ritzau Index](https://www.ritzau.dk/Produkter%20og%20Services/Ritzau%20Index.aspx)
  - [Danish Polls](https://github.com/ndarville/danish-polls) (by [@ndarville](https://github.com/ndarville))
  - [Wikipedia: Opinion polling for the Danish general election, 2015](http://en.wikipedia.org/wiki/Opinion_polling_for_the_Danish_general_election,_2015)
