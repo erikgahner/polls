@@ -1221,3 +1221,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1220,Voxmeter,2018,9,30,26.9,6.5,3.6,2.3,4.8,4.8,0.8,18.4,18.1,8.5,4.9,1029,https://voxmeter.dk/meningsmalinger/
 1221,Greens,2018,10,1,26.9,5.0,4.5,2.9,5.9,4.1,0.5,16.4,19.6,10.0,3.9,1157,https://borsen.dk/nyheder/politik/meningsmaalinger.html
 1222,Voxmeter,2018,10,6,27.5,5.7,4.0,2.3,5.1,5.2,0.9,17.6,18.3,8.3,4.7,1025,https://voxmeter.dk/meningsmalinger/
+1223,Norstat,2018,10,9,27.2,5.8,3.3,2.6,5.1,5.3,0.8,16.9,19.0,9.2,4.3,1209,https://www.avisen.dk/meningsmaaling-procentvist-flertal-til-roed-blok_520442.aspx
+1224,Gallup,2018,10,11,25.5,6.4,4.3,2.0,5.7,5.7,0.8,15.6,19.5,9.1,5.1,1674,https://www.berlingske.dk/barometeret
