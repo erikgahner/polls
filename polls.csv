@@ -1224,3 +1224,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1223,Norstat,2018,10,9,27.2,5.8,3.3,2.6,5.1,5.3,0.8,16.9,19.0,9.2,4.3,1209,https://www.avisen.dk/meningsmaaling-procentvist-flertal-til-roed-blok_520442.aspx
 1224,Gallup,2018,10,11,25.5,6.4,4.3,2.0,5.7,5.7,0.8,15.6,19.5,9.1,5.1,1674,https://www.berlingske.dk/barometeret
 1225,Voxmeter,2018,10,14,28.3,5.0,3.5,2.0,5.3,5.7,0.9,17.7,18.0,8.5,4.8,1016,https://voxmeter.dk/meningsmalinger/
+1226,Voxmeter,2018,10,21,27.3,5.6,3.2,1.9,4.9,6.4,0.9,18.2,17.3,8.6,5.3,1032,https://voxmeter.dk/meningsmalinger/
