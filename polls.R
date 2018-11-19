@@ -1,16 +1,7 @@
 library("ggplot2")
-library("rio")
 library("dplyr")
 
 polls <- read.csv("polls.csv")
-
-# Convert
-## Stata
-convert("polls.csv", "polls.dta")
-## SPSS
-convert("polls.csv", "polls.sav")
-## Excel
-convert("polls.csv", "polls.xlsx")
 
 polls$date <- format(as.Date(c(paste(polls$year, 
                                      polls$month, 
