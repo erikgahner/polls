@@ -1236,3 +1236,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1235,Epinion,2018,11,15,26.5,6.0,4.1,3.3,5.3,4.1,0.5,17.5,18.3,10.2,4.1,1573,https://www.dr.dk/nyheder/politik/meningsmaalinger
 1236,Voxmeter,2018,11,25,26.0,6.6,4.0,2.1,4.9,5.9,1.1,17.7,17.8,9.6,3.8,1090,https://voxmeter.dk/meningsmalinger/
 1237,Voxmeter,2018,12,2,26.5,6.2,4.5,2.1,5.8,5.1,1.1,18.2,18.3,8.5,3.5,1053,https://voxmeter.dk/meningsmalinger/
+1238,Greens,2018,11,29,24.6,7.6,4.6,3.8,4.8,3.1,1.2,17.1,19.2,9.6,3.8,1100,https://www.berlingske.dk/barometeret
+1239,Voxmeter,2018,12,8,25.8,6.6,4.2,2.2,5.7,4.6,1.0,18.8,17.7,9.3,3.8,1044,https://voxmeter.dk/meningsmalinger/
