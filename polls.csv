@@ -1241,3 +1241,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1240,Norstat,2018,12,11,26.6,4.8,3.9,2.8,6.3,5.2,0.5,17.6,18.2,8.8,4.5,1219,https://www.altinget.dk/artikel/maaling-efter-finanslov-blaa-blok-staar-i-stampe
 1241,Gallup,2018,12,13,26.4,6.7,4.9,1.4,5.6,5.4,0.7,18.3,18.3,8.4,3.3,1604,https://www.berlingske.dk/barometeret
 1242,Voxmeter,2018,12,16,26.4,7.1,3.6,1.6,5.1,5.4,1.0,18.5,18.7,8.8,3.8,1026,https://voxmeter.dk/meningsmalinger/
+1243,Epinion,2018,12,12,27.4,5.8,3.8,2.8,5.8,4.1,0.4,19.1,17.2,9.4,4.0,1498,https://www.dr.dk/nyheder/politik/meningsmaalinger
+1244,Megafon,2018,12,20,25.1,7.4,4.5,3.1,6.4,4.9,0.9,16.2,17.0,9.9,4.1,1000,http://nyheder.tv2.dk/politik/2018-12-20-ny-maaling-de-roede-staar-stadig-til-at-vinde-valget
