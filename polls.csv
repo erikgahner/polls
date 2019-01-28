@@ -1251,3 +1251,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_f,party_i,pa
 1250,YouGov,2018,8,12,26.1,5.0,5.9,4.5,6.5,4.9,0.7,15.6,17.8,8.9,4.2,1617,https://www.berlingske.dk/barometeret
 1251,YouGov,2018,8,26,25.7,6.8,4.9,4.2,5.4,5.4,0.8,14.7,17.2,10.5,4.4,1585,https://www.berlingske.dk/barometeret
 1252,YouGov,2019,1,14,23.8,6.2,4.8,5.7,6.1,4.6,1.0,15.9,17.7,10.2,4.0,1917,https://www.berlingske.dk/barometeret
+1253,Voxmeter,2019,1,27,28.1,6.9,4.0,2.2,5.0,4.6,0.9,16.8,18.9,8.5,3.7,1039,https://voxmeter.dk/meningsmalinger/
