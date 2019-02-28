@@ -18,6 +18,7 @@ The `polls.csv` data file consists of opinion polls on the support for nine poli
  - `party_b` = Support for _Det Radikale Venstre_ (in %)
  - `party_c` = Support for _Konservative_ (in %)
  - `party_d` = Support for _Nye Borgerlige_ (in %)
+ - `party_e` = Support for _Klaus Riskær Pedersen_ (in %)
  - `party_f` = Support for _SF_ (in %)
  - `party_i` = Support for _Liberal Alliance_ (in %)
  - `party_k` = Support for _Kristendemokraterne_ (in %) (note: limited data)
