@@ -105,3 +105,29 @@ dev.off()
 png('figs/support-aa.png', width = 642, height = 400, units = "px", res = 105)
 plot_party("party_aa", "#AEFEAF")
 dev.off()
+
+png('figs/support-all.png', width = 700, height = 500, units = "px", res = 105)
+polls.100 %>%
+  gather(party, support, party_a:party_aa) %>%
+  ggplot(aes(x=as.Date(date), y=support, colour=party)) +
+  geom_point(size=1, alpha=0.3) +
+  geom_smooth(se=FALSE, method="loess") +
+  labs(y = "Stemmer (%)",
+       x = "") +
+  scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Venstre"), values = c("#E3515D", "#AEFEAF",
+                                                                         "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#459BC8")) +
+  theme(
+    plot.margin = unit(rep(0.5, 4), "cm"), plot.background = element_blank(), panel.background = element_blank(),
+    panel.border = element_blank(), legend.background = element_rect(fill = "transparent", colour = NA),
+    legend.key = element_rect(fill = "transparent", colour = NA), legend.title = element_blank(),
+    strip.background = element_rect(fill = "transparent", colour = NA),
+    panel.grid.major = element_line(linetype = "dotted", colour = "#757575", size = 0.3), panel.grid.minor = element_blank(),
+    axis.ticks = element_blank(), axis.line = element_line(color = "#FFFFFF", size = 0.3),
+    plot.title = element_text(size = 12, hjust = 0, margin = margin(b = 15)),
+    plot.subtitle = element_text(size = 12, hjust = 0, margin = margin(b = 5)),
+    plot.caption = element_text(size = 10, colour = "#212121", margin = margin(t = 15)),
+    axis.title = element_text(size = 11, face = "plain"), axis.text = element_text(size = 10, face = "plain"),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10), strip.text = element_text(size = 12, face = "plain")
+  )
+dev.off()
