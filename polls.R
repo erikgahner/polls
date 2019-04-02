@@ -25,6 +25,7 @@ plot_party <- function(x, y){
     xlab("") +
     scale_colour_brewer(palette="Paired") +
     scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
+    {if(with(polls.100, min(get(x), na.rm=TRUE)) < 4) geom_hline(yintercept=2, linetype = "dashed") }+
     theme(
       plot.margin = unit(rep(0.5, 4), "cm"), plot.background = element_blank(), panel.background = element_blank(),
       panel.border = element_blank(), legend.background = element_rect(fill = "transparent", colour = NA),
@@ -37,7 +38,7 @@ plot_party <- function(x, y){
       plot.caption = element_text(size = 10, colour = "#212121", margin = margin(t = 15)),
       axis.title = element_text(size = 11, face = "plain"), axis.text = element_text(size = 10, face = "plain"),
       legend.text = element_text(size = 10), strip.text = element_text(size = 12, face = "plain")
-    )
+    ) 
 }
 
 png('figs/support-a.png', width = 642, height = 400, units = "px", res = 105)
@@ -63,6 +64,7 @@ ggplot(polls.100, aes_string(x="as.Date(date)", y="party_e")) +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
   scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
+  geom_hline(yintercept=2, linetype = "dashed") +
   theme(
     plot.margin = unit(rep(0.5, 4), "cm"), plot.background = element_blank(), panel.background = element_blank(),
     panel.border = element_blank(), legend.background = element_rect(fill = "transparent", colour = NA),
@@ -112,6 +114,7 @@ polls.100 %>%
   ggplot(aes(x=as.Date(date), y=support, colour=party)) +
   geom_point(size=1, alpha=0.3) +
   geom_smooth(se=FALSE, method="loess") +
+  geom_hline(yintercept=2, linetype = "dashed") +
   labs(y = "Stemmer (%)",
        x = "") +
   scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Venstre"), values = c("#E3515D", "#AEFEAF",
