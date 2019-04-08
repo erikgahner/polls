@@ -58,8 +58,11 @@ plot_party("party_d", "#05454F")
 dev.off()
 
 png('figs/support-e.png', width = 642, height = 400, units = "px", res = 105)
-ggplot(polls.100, aes_string(x="as.Date(date)", y="party_e")) + 
+polls.100 %>%
+  filter(!is.na(party_e)) %>%
+  ggplot(aes_string(x="as.Date(date)", y="party_e")) + 
   geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
+  geom_smooth(se=FALSE, method="loess", colour="#537D7A") +
   ylab("Stemmer (%)") +
   xlab("") +
   scale_colour_brewer(palette="Paired") +
