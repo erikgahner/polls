@@ -23,6 +23,7 @@ The `polls.csv` data file consists of opinion polls on the support for nine poli
  - `party_i` = Support for _Liberal Alliance_ (in %)
  - `party_k` = Support for _Kristendemokraterne_ (in %) (note: limited data)
  - `party_o` = Support for _Dansk Folkeparti_ (in %)
+ - `party_p` = Support for _Stram Kurs_ (in %)
  - `party_v` = Support for _Venstre_ (in %)
  - `party_oe`= Support for _Enhedslisten_ (in %)
  - `party_aa` = Support for _Alternativet_ (in %)
