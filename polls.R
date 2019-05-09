@@ -121,8 +121,9 @@ polls.100 %>%
   geom_hline(yintercept=2, linetype = "dashed") +
   labs(y = "Stemmer (%)",
        x = "") +
-  scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Stram Kurs", "Venstre"), values = c("#E3515D", "#AEFEAF",
-                                                                         "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#000000", "#459BC8")) +
+  scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Stram Kurs", "Venstre"), 
+                      values = c("#E3515D", "#AEFEAF", "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#000000", "#459BC8"),
+                      guide = guide_legend(ncol = 4)) +
   theme(
     plot.margin = unit(rep(0.5, 4), "cm"), plot.background = element_blank(), panel.background = element_blank(),
     panel.border = element_blank(), legend.background = element_rect(fill = "transparent", colour = NA),
@@ -136,5 +137,5 @@ polls.100 %>%
     axis.title = element_text(size = 11, face = "plain"), axis.text = element_text(size = 10, face = "plain"),
     legend.position = "bottom",
     legend.text = element_text(size = 10), strip.text = element_text(size = 12, face = "plain")
-  )
+  ) 
 dev.off()
