@@ -1335,4 +1335,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1334,Voxmeter,2019,5,26,26.4,8.8,4.7,1.7,0.9,8.7,3.6,1.1,11.2,2.4,18.1,8.7,3.4,1005,https://voxmeter.dk/meningsmalinger/
 1335,YouGov,2019,5,27,28.0,6.7,7.0,3.4,0.2,8.2,2.9,0.7,12.6,2.7,16.8,8.0,3.0,983,https://www.bt.dk/politik/ny-maaling-disse-tre-partier-staar-til-kanon-valg
 1336,Greens,2019,5,26,22.6,9.2,6.0,2.6,0.9,8.4,4.5,2.5,9.9,3.4,17.4,10.0,2.4,1135,https://www.berlingske.dk/barometeret
-1137,Voxmeter,2019,5,27,26.6,8.7,5.2,1.5,0.9,8.8,3.1,1.6,10.7,2.5,18.2,8.3,3.7,1007,https://voxmeter.dk/meningsmalinger/
+1337,Voxmeter,2019,5,27,26.6,8.7,5.2,1.5,0.9,8.8,3.1,1.6,10.7,2.5,18.2,8.3,3.7,1007,https://voxmeter.dk/meningsmalinger/
+1338,Voxmeter,2019,5,28,27.3,9.1,5.6,1.4,0.7,8.4,2.8,1.5,10.4,2.8,17.7,8.6,3.4,1011,https://voxmeter.dk/meningsmalinger/
+1339,YouGov,2019,5,28,26.3,6.9,6.2,3.9,0.4,9.1,2.7,0.9,12.5,2.6,16.2,8.8,3.5,978,https://www.bt.dk/politik/ny-maaling-socialdemokratiet-staar-stille-og-det-er-ikke-helt-godt
