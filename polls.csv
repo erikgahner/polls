@@ -1338,3 +1338,6 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1337,Voxmeter,2019,5,27,26.6,8.7,5.2,1.5,0.9,8.8,3.1,1.6,10.7,2.5,18.2,8.3,3.7,1007,https://voxmeter.dk/meningsmalinger/
 1338,Voxmeter,2019,5,28,27.3,9.1,5.6,1.4,0.7,8.4,2.8,1.5,10.4,2.8,17.7,8.6,3.4,1011,https://voxmeter.dk/meningsmalinger/
 1339,YouGov,2019,5,28,26.3,6.9,6.2,3.9,0.4,9.1,2.7,0.9,12.5,2.6,16.2,8.8,3.5,978,https://www.bt.dk/politik/ny-maaling-socialdemokratiet-staar-stille-og-det-er-ikke-helt-godt
+1340,Gallup,2019,5,28,25.7,6.8,6.9,2.9,0.8,8.6,3.0,1.4,11.0,1.6,20.4,8.0,2.9,1476,https://www.berlingske.dk/barometeret
+1341,YouGov,2019,5,29,26.3,8.0,5.7,4.3,0.6,9.0,2.6,0.7,11.3,2.4,17.3,8.7,3.3,981,https://www.bt.dk/politik/stram-kurs-naermer-sig-spaerregraensen
+1342,Voxmeter,2019,5,29,27.1,8.8,5.6,1.7,0.8,8.0,3.0,1.6,11.1,2.4,17.5,8.4,3.6,1011,https://voxmeter.dk/meningsmalinger/
