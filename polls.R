@@ -78,26 +78,7 @@ plot_party("party_o", "#3D6F8D")
 dev.off()
 
 png('figs/support-p.png', width = 642, height = 400, units = "px", res = 105)
-ggplot(polls.100, aes_string(x="as.Date(date)", y="party_p")) + 
-  geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
-  ylab("Stemmer (%)") +
-  xlab("") +
-  scale_colour_brewer(palette="Paired") +
-  scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
-  {if(with(polls.100, min(get("party_d"), na.rm=TRUE)) < 4) geom_hline(yintercept=2, linetype = "dashed") }+
-  theme(
-    plot.margin = unit(rep(0.5, 4), "cm"), plot.background = element_blank(), panel.background = element_blank(),
-    panel.border = element_blank(), legend.background = element_rect(fill = "transparent", colour = NA),
-    legend.key = element_rect(fill = "transparent", colour = NA), legend.title = element_blank(),
-    strip.background = element_rect(fill = "transparent", colour = NA),
-    panel.grid.major = element_line(linetype = "dotted", colour = "#757575", size = 0.3), panel.grid.minor = element_blank(),
-    axis.ticks = element_blank(), axis.line = element_line(color = "#FFFFFF", size = 0.3),
-    plot.title = element_text(size = 12, hjust = 0, margin = margin(b = 15)),
-    plot.subtitle = element_text(size = 12, hjust = 0, margin = margin(b = 5)),
-    plot.caption = element_text(size = 10, colour = "#212121", margin = margin(t = 15)),
-    axis.title = element_text(size = 11, face = "plain"), axis.text = element_text(size = 10, face = "plain"),
-    legend.text = element_text(size = 10), strip.text = element_text(size = 12, face = "plain")
-  ) 
+plot_party("party_p", "#000000")
 dev.off()
 
 png('figs/support-v.png', width = 642, height = 400, units = "px", res = 105)
