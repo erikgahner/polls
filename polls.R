@@ -17,8 +17,9 @@ for(i in c("a", "b", "c", "d", "e", "f", "i", "k", "o", "p", "v", "oe", "aa")) {
 polls.10m <- polls[polls$date > seq(as.Date(Sys.Date()), length = 2, by = "-10 months")[2],]
 polls.100 <- polls[order(as.Date(polls$date)),] %>% top_n(100, as.Date(polls$date))
 
-plot_party <- function(x, y){
+plot_party <- function(x, y, valgresultat){
   ggplot(polls.100, aes_string(x="as.Date(date)", y=x)) + 
+    geom_hline(yintercept=valgresultat, linetype = "dashed", size=1.5, colour=y) +
     geom_smooth(se=FALSE, method="loess", colour=y) +
     geom_point(aes(colour=pollingfirm, shape=pollingfirm), size=2.5) +
     ylab("Stemmer (%)") +
@@ -42,55 +43,55 @@ plot_party <- function(x, y){
 }
 
 png('figs/support-a.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_a", "#E3515D")
+plot_party("party_a", "#E3515D", valgresultat = 25.9)
 dev.off()
 
 png('figs/support-b.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_b", "#EB4295")
+plot_party("party_b", "#EB4295", valgresultat = 8.6)
 dev.off()
 
 png('figs/support-c.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_c", "#429969")
+plot_party("party_c", "#429969", valgresultat = 6.6)
 dev.off()
 
 png('figs/support-d.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_d", "#05454F")
+plot_party("party_d", "#05454F", valgresultat = 2.4)
 dev.off()
 
 png('figs/support-e.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_e", "#537D7A")
+plot_party("party_e", "#537D7A", valgresultat = 0.8)
 dev.off()
 
 png('figs/support-f.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_f", "#9C1D2A")
+plot_party("party_f", "#9C1D2A", valgresultat = 7.7)
 dev.off()
 
 png('figs/support-i.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_i", "#EE9A5F")
+plot_party("party_i", "#EE9A5F", valgresultat = 2.3)
 dev.off()
 
 png('figs/support-k.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_k", "#F4CE97")
+plot_party("party_k", "#F4CE97", valgresultat = 1.7)
 dev.off()
 
 png('figs/support-o.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_o", "#3D6F8D")
+plot_party("party_o", "#3D6F8D", valgresultat = 8.7)
 dev.off()
 
 png('figs/support-p.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_p", "#000000")
+plot_party("party_p", "#000000", valgresultat = 1.8)
 dev.off()
 
 png('figs/support-v.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_v", "#459BC8")
+plot_party("party_v", "#459BC8", valgresultat = 23.4)
 dev.off()
 
 png('figs/support-oe.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_oe", "#914A4F")
+plot_party("party_oe", "#914A4F", valgresultat = 6.9)
 dev.off()
 
 png('figs/support-aa.png', width = 642, height = 400, units = "px", res = 105)
-plot_party("party_aa", "#AEFEAF")
+plot_party("party_aa", "#AEFEAF", valgresultat = 3)
 dev.off()
 
 png('figs/support-all.png', width = 700, height = 500, units = "px", res = 105)
