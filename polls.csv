@@ -1372,3 +1372,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1371,Voxmeter,2019,9,1,26.7,9.3,6.9,1.9,0.5,9.2,2.7,1.4,7.9,1.1,23.4,6.8,2.1,1050,https://voxmeter.dk/meningsmalinger/
 1372,Voxmeter,2019,9,8,27.3,9.7,7.6,1.2,0.0,8.5,2.4,0.8,8.1,1.4,22.6,7.5,2.4,1043,https://voxmeter.dk/meningsmalinger/
 1373,Voxmeter,2019,9,14,27.7,9.6,7.1,1.0,0.8,7.8,2.6,1.2,8.9,1.7,21.9,6.7,2.7,1043,https://voxmeter.dk/meningsmalinger/
+1374,YouGov,2019,9,9,27.1,8.4,7.8,3.6,0.0,6.9,2.4,0.9,10.5,1.7,20.7,7.6,2.5,1178,https://www.berlingske.dk/barometeret
+1375,Gallup,2019,9,12,25.5,7.9,8.4,2.8,0.3,8.0,2.6,1.4,9.4,1.1,22.4,7.5,2.6,1666,https://www.berlingske.dk/barometeret
