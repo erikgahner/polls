@@ -32,15 +32,15 @@ plot_party <- function(x, y){
     scale_colour_brewer(palette="Paired") +
     scale_shape_manual(values = c(16,0,18,2,3,4,17,1)) +
     {if(with(polls_100, min(get(x), na.rm=TRUE)) < 4) geom_hline(yintercept=2, linetype = "dashed") }+
-    theme_grey(base_size = 11.5) %+replace% 
-    theme(panel.background = element_rect(fill = "gray98", colour = "gray98"),
+    theme_minimal(base_size = 12, base_family = "Helvetica") %+replace% 
+    theme(line = element_line(colour = "black", size = 0.5, linetype = 1, lineend = "butt"),
           panel.grid.major.x = element_blank(), 
-          panel.grid.major.y = element_line(colour = "gray90", size = 0.2),
-          panel.grid.minor = element_blank(),
-          plot.title = element_text(size = 12, hjust = 0, margin = margin(b = 15)),
-          axis.title = element_text(colour = "gray40",  face = "plain"),
-          axis.text = element_text(colour = "gray50", face = "plain"),
-          axis.ticks = element_line(colour = "gray90")
+          panel.grid.minor.x = element_blank(), 
+          panel.grid.major.y = element_line(colour = "grey20", size = 0.3, linetype="dotted"),
+          panel.grid.minor.y = element_line(colour = "grey20", size = 0.2, linetype="dotted"),
+          axis.ticks.x = element_line(colour = "gray48"),
+          axis.ticks.y = element_blank(),
+          axis.line.x = element_line()
     )
 }
 
@@ -108,14 +108,15 @@ polls_100 %>%
   scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Stram Kurs", "Venstre"), 
                       values = c("#E3515D", "#AEFEAF", "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#000000", "#459BC8"),
                       guide = guide_legend(ncol = 4)) +
-  theme(panel.background = element_rect(fill = "gray98", colour = "gray98"),
+  theme_minimal(base_size = 12, base_family = "Helvetica") %+replace% 
+  theme(line = element_line(colour = "black", size = 0.5, linetype = 1, lineend = "butt"),
         panel.grid.major.x = element_blank(), 
-        panel.grid.major.y = element_line(colour = "gray90", size = 0.2),
-        panel.grid.minor = element_blank(),
-        plot.title = element_text(size = 12, hjust = 0, margin = margin(b = 15)),
-        axis.title = element_text(colour = "gray40",  face = "plain"),
-        axis.text = element_text(colour = "gray50", face = "plain"),
-        axis.ticks = element_line(colour = "gray90"),
+        panel.grid.minor.x = element_blank(), 
+        panel.grid.major.y = element_line(colour = "grey20", size = 0.3, linetype="dotted"),
+        panel.grid.minor.y = element_line(colour = "grey20", size = 0.2, linetype="dotted"),
+        axis.ticks.x = element_line(colour = "gray48"),
+        axis.ticks.y = element_blank(),
+        axis.line.x = element_line(),
         legend.position = "bottom", legend.title = element_blank()
   )
 dev.off()
