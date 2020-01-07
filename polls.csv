@@ -1398,3 +1398,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1397,Gallup,2019,12,12,26.2,8.5,8.2,3.6,0.8,6.9,1.7,1.5,7.8,1.0,23.5,8.0,2.3,1484,https://www.berlingske.dk/barometeret
 1398,Voxmeter,2019,12,14,26.3,8.5,8.0,1.9,0.3,8.4,2.1,,8.2,1.9,23.1,7.5,2.1,1036,https://voxmeter.dk/meningsmalinger/
 1399,Voxmeter,2019,12,22,25.5,8.5,8.1,1.5,0.9,7.6,1.6,,8.5,2.1,23.9,7.8,2.7,1032,https://voxmeter.dk/meningsmalinger/
+1400,Voxmeter,2020,1,5,26.0,8.9,8.5,2.1,0.4,8.1,1.4,,8.0,1.6,23.8,7.4,3.1,1029,https://voxmeter.dk/meningsmalinger/
