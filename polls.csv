@@ -1412,3 +1412,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1411,Voxmeter,2020,3,1,26.8,8.8,7.0,2.4,0.5,8.5,2.2,,8.2,2.1,23.6,7.7,2.1,1033,https://voxmeter.dk/meningsmalinger/
 1412,Epinion,2020,3,2,27.7,8.7,7.4,4.1,0.3,7.1,1.8,,8.0,1.7,22.3,7.6,2.0,1602,https://www.dr.dk/nyheder/politik/meningsmaalinger
 1413,Voxmeter,2020,3,7,27.5,8.7,7.7,2.6,1.1,7.8,2.1,,7.6,1.4,23.3,7.7,1.6,1055,https://voxmeter.dk/meningsmalinger/
+1414,YouGov,2020,2,16,26.0,6.9,8.7,4.8,,7.5,2.7,1.4,10.0,1.5,20.6,8.1,1.8,1244,https://pbs.twimg.com/media/ETKLa5fWkAM7dpO?format=jpg
+1415,YouGov,2020,3,9,24.2,7.7,8.2,5.1,,8.3,2.8,0.9,10.1,1.2,22.7,7.6,1.4,1247,https://pbs.twimg.com/media/ETKLa5fWkAM7dpO?format=jpg
