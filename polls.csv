@@ -1417,3 +1417,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1416,Voxmeter,2020,3,15,27.2,9.4,7.0,1.9,0.4,8.3,2.3,,7.2,1.9,24.0,8.1,0.9,1041,https://voxmeter.dk/meningsmalinger/
 1417,Voxmeter,2020,3,22,28.2,10.4,6.5,2.1,0.1,7.8,2.1,,7.8,1.4,23.3,7.8,0.6,1027,https://voxmeter.dk/meningsmalinger/
 1418,Voxmeter,2020,3,29,31.5,9.2,6.3,2.5,0.0,7.8,1.5,,8.1,1.0,22.2,7.4,0.6,1071,https://voxmeter.dk/meningsmalinger/
+1419,Gallup,2020,4,2,32.0,8.0,6.8,4.1,0.3,6.9,1.5,1.2,8.1,0.9,21.9,7.5,0.8,1519,https://www.berlingske.dk/barometeret
