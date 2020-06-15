@@ -1433,3 +1433,5 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1432,Voxmeter,2020,5,31,34.7,7.7,7.6,2.7,0.0,7.7,2.5,,6.8,0.5,19.5,9.0,0.5,1036,https://voxmeter.dk/meningsmalinger/
 1433,Epinion,2020,5,29,34.5,6.2,6.9,5.8,0.0,7.3,2.8,,6.8,0.8,20.4,6.1,1.1,1642,https://www.dr.dk/nyheder/politik/dansk-folkeparti-faar-laveste-maaling-i-over-ti-aar-nye-borgerlige-staar-til-markant
 1434,Voxmeter,2020,6,7,35.5,7.6,7.3,2.5,0.6,7.4,2.2,,5.9,1.1,19.1,8.5,0.8,1034,https://voxmeter.dk/meningsmalinger/
+1435,YouGov,2020,6,10,33.8,7.5,7.6,7.7,,6.6,1.8,0.7,6.6,1.3,18.6,7.0,0.8,1255,https://www.bt.dk/politik/historisk-maling-nye-borgerlige-storre-end-df
+1436,Voxmeter,2020,6,13,34.0,8.4,7.3,3.4,1.1,7.0,2.1,,6.6,0.8,20.4,7.9,0.5,1036,https://voxmeter.dk/meningsmalinger/
