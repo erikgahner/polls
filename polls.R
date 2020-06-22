@@ -28,7 +28,7 @@ polls_use <- polls %>% arrange(desc(as.Date(date))) %>% top_n(75, as.Date(date))
 
 plot_party <- function(x, parti){
   ggplot(polls_use, aes_string(x="as.Date(date)", y=paste0("party_", x))) + 
-    geom_smooth(se = FALSE, colour = "gray90", span = .3, size = 1) +
+    geom_smooth(se = FALSE, colour = "gray70", span = .3, size = 1) +
     geom_errorbar(aes_string(colour = "pollingfirm", ymin = paste0("ci_min_", x), ymax = paste0("ci_max_", x)), alpha = .4) +
     geom_point(aes(colour = pollingfirm, shape = pollingfirm), size=2.5) +
     scale_colour_manual(breaks = c("Voxmeter", "Gallup", "YouGov", "Epinion", "Megafon", "Greens", "Norstat"),
@@ -37,6 +37,7 @@ plot_party <- function(x, parti){
                        values = c(16, 15, 17, 18, 4, 3, 2)) +
     labs(y = NULL, x = NULL, colour = NULL, shape = NULL,
          caption = paste0("Opbakning til ", parti, " (%)\n", 
+                          "m. 95% konfidensintervaller\n",
                           NROW(polls_use[!is.na(polls_use[,paste0("party_", x)]),]),
                           " meningsmålinger\n", tolower(format(min(as.Date(polls_use$date)), "%B %Y")), "-", tolower(format(max(as.Date(polls_use$date)), "%B %Y")))
     ) +
@@ -117,7 +118,7 @@ polls_use %>%
   gather(party, support, party_a:party_aa) %>%
   ggplot(aes(x=as.Date(date), y=support, colour=party)) +
   geom_point(size=1, alpha=0.3) +
-  geom_smooth(se=FALSE, method="loess") +
+  geom_smooth(se=FALSE, method="loess", span = .3) +
   geom_hline(yintercept=2, linetype = "dashed") +
   labs(y = "Stemmer (%)",
        x = NULL) +
