@@ -9,13 +9,13 @@ polls <- polls %>%
     date = format(as.Date(c(paste(year, month, day, sep="-")), by = "days"))
   )
 
-for(i in c("a", "b", "c", "d", "e", "f", "i", "k", "o", "p", "v", "oe", "aa")) {
+for(i in c("a", "b", "c", "d", "e", "f", "g", "i", "k", "o", "p", "v", "oe", "aa")) {
   polls <- within(polls, {
     assign(paste0("ci_max_", i), get(paste0("party_", i)) + 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
   }
   )
 }
-for(i in c("a", "b", "c", "d", "e", "f", "i", "k", "o", "p", "v", "oe", "aa")) {
+for(i in c("a", "b", "c", "d", "e", "f", "g", "i", "k", "o", "p", "v", "oe", "aa")) {
   polls <- within(polls, {
     assign(paste0("ci_min_", i), get(paste0("party_", i)) - 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
   }
@@ -23,8 +23,12 @@ for(i in c("a", "b", "c", "d", "e", "f", "i", "k", "o", "p", "v", "oe", "aa")) {
 }
 
 
+
 #polls_use <- polls[polls$date > seq(as.Date(Sys.Date()), length = 2, by = "-12 months")[2],]
-polls_use <- polls %>% arrange(desc(as.Date(date))) %>% top_n(75, as.Date(date))
+polls_use <- polls %>% 
+  arrange(desc(as.Date(date))) %>% 
+  top_n(75, as.Date(date)) %>% 
+  mutate_at(vars(starts_with("ci_min")), ~ ifelse(.x < 0, 0.001, .x))
 
 plot_party <- function(x, parti){
   ggplot(polls_use, aes_string(x="as.Date(date)", y=paste0("party_", x))) + 
@@ -44,7 +48,11 @@ plot_party <- function(x, parti){
     scale_x_date(date_breaks = "1 month", date_labels = "%b") +
     {if(with(polls_use, min(get(paste0("party_", x)), na.rm=TRUE)) < 4) geom_hline(yintercept=2, linetype = "dashed") }+
     ylim(c(
-      ifelse((with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2 <= 0, 0, (with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2), 
+      ifelse(
+        (with(
+          polls_use, 
+          3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2 <= 0 | with(polls_use, max(get(paste0("party_", x)))) > 1, 
+        0, (with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2), 
       with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)) + 0.2)) +
     theme_minimal(base_size = 12, base_family = "Barlow") %+replace% 
     theme(panel.grid.major.x = element_blank(), 
@@ -85,6 +93,10 @@ png('figs/support-f.png', width = 800, height = 700, units = "px", res = 135)
 plot_party("f", "SF")
 dev.off()
 
+png('figs/support-g.png', width = 800, height = 700, units = "px", res = 135)
+plot_party("g", "Veganerpartiet")
+dev.off()
+
 png('figs/support-i.png', width = 800, height = 700, units = "px", res = 135)
 plot_party("i", "Liberal Alliance")
 dev.off()
@@ -122,8 +134,8 @@ polls_use %>%
   geom_hline(yintercept=2, linetype = "dashed") +
   labs(y = "Stemmer (%)",
        x = NULL) +
-  scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Stram Kurs", "Venstre"), 
-                      values = c("#E3515D", "#AEFEAF", "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#000000", "#459BC8"),
+  scale_colour_manual(labels = c("Socialdemokraterne", "Alternativet", "Radikale Venstre", "Konservative", "Nye Borgerlige", "Klaus Riskær Pedersen", "SF", "Veganerpartiet", "Liberal Alliance", "Kristendemokraterne", "Dansk Folkeparti", "Enhedslisten", "Stram Kurs", "Venstre"), 
+                      values = c("#E3515D", "#AEFEAF", "#EB4295", "#429969", "#05454F", "#537D7A", "#9C1D2A", "green", "#EE9A5F", "#F4CE97", "#3D6F8D", "#914A4F", "#000000", "#459BC8"),
                       guide = guide_legend(ncol = 4)) +
   theme_minimal(base_size = 12, base_family = "Barlow") %+replace% 
   theme(panel.grid.major.x = element_blank(), 
