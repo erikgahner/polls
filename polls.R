@@ -1,6 +1,7 @@
 library("tidyverse")
 
 Sys.setlocale("LC_TIME", "da_DK.UTF-8")
+options(OutDec= ",")
 
 polls <- read.csv("polls.csv")
 
