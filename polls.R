@@ -52,7 +52,7 @@ plot_party <- function(x, parti){
       ifelse(
         (with(
           polls_use, 
-          3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2 <= 0 | with(polls_use, max(get(paste0("party_", x)))) > 1, 
+          3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2 <= 0 | with(polls_use, max(get(paste0("party_", x)))) < 1, 
         0, (with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2), 
       with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)) + 0.2)) +
     theme_minimal(base_size = 12, base_family = "Barlow") %+replace% 
@@ -60,7 +60,7 @@ plot_party <- function(x, parti){
           panel.grid.minor.x = element_blank(), 
           panel.grid.major.y = element_line(colour = "grey90", size = 0.2),
           panel.grid.minor.y = element_blank(),
-          plot.caption = element_text(hjust = 1, size = 10, margin = margin(t = -71), lineheight = 1.2),
+          plot.caption = element_text(hjust = 1, size = 10, margin = margin(t = -57), lineheight = 1.2),
           legend.justification = c(0, 0),
           legend.position = "bottom",
           plot.margin=unit(c(.5, .5, 1.5, .5),"cm"),
