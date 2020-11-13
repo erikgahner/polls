@@ -28,6 +28,7 @@ The `polls.csv` data file consists of opinion polls on the support for nine poli
  - `party_v` = Support for _Venstre_ (in %)
  - `party_oe`= Support for _Enhedslisten_ (in %)
  - `party_aa` = Support for _Alternativet_ (in %)
+ - `noparty` = Percentage of sample with no party ("Don't know", "No vote", blank vote etc.)
  - `n` = Sample size
  - `source` = URL to source (note: limited data)
 
