@@ -1463,3 +1463,7 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1462,Voxmeter,2020,11,1,30.5,5.7,9.9,6.1,,8.8,0.6,2.3,2.4,5.0,,19.4,7.4,0.8,24.7,1021,https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-01-11-2020.pdf
 1463,Voxmeter,2020,11,7,32.5,4.6,9.5,5.7,,8.3,0.6,2.2,2.8,5.8,,18.5,7.8,0.8,25.6,1028,https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-08-11-2020.pdf
 1464,Voxmeter,2020,11,15,31.3,5.1,9.5,5.3,,9.0,0.5,2.7,2.5,5.4,,18.6,8.7,0.4,26.2,1034,https://voxmeter.dk/wp-content/uploads/opiniontable/pdf/Voxmeterm%C3%A5ling-15-11-2020.pdf
+1465,Megafon,2011,9,15,25.5,9.2,5.9,,,10.5,,5.0,0.8,13.0,,24.5,5.6,,15.0,1500,https://www.megafon.dk/586/politiskindex
+1466,Megafon,2016,5,25,24.1,4.6,3.6,,,5.0,,7.9,0.9,19.5,,17.5,8.1,8.3,14.0,1258,https://www.megafon.dk/586/politiskindex
+1467,Megafon,2016,12,1,24.5,6.9,3.7,3.4,,5.0,,6.3,0.7,16.1,,17.4,9.0,6.9,16.0,1120,https://www.megafon.dk/586/politiskindex
+1468,Megafon,2017,5,24,24.3,6.6,5.0,3.3,,5.6,,6.0,0.8,15.7,,16.5,9.2,6.9,16.0,1194,https://www.megafon.dk/586/politiskindex
