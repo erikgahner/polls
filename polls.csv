@@ -1467,3 +1467,4 @@ id,pollingfirm,year,month,day,party_a,party_b,party_c,party_d,party_e,party_f,pa
 1466,Megafon,2016,5,25,24.1,4.6,3.6,,,5.0,,7.9,0.9,19.5,,17.5,8.1,8.3,14.0,1258,https://www.megafon.dk/586/politiskindex
 1467,Megafon,2016,12,1,24.5,6.9,3.7,3.4,,5.0,,6.3,0.7,16.1,,17.4,9.0,6.9,16.0,1120,https://www.megafon.dk/586/politiskindex
 1468,Megafon,2017,5,24,24.3,6.6,5.0,3.3,,5.6,,6.0,0.8,15.7,,16.5,9.2,6.9,16.0,1194,https://www.megafon.dk/586/politiskindex
+1469,Gallup,2020,11,12,29.2,6.3,9.8,8.9,,7.4,0.4,2.7,1.8,5.6,0.7,18.4,7.4,0.6,,1664,https://www.berlingske.dk/barometeret
