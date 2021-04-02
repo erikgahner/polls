@@ -1,4 +1,5 @@
 library("tidyverse")
+library("lubridate")
 
 Sys.setlocale("LC_TIME", "da_DK.UTF-8")
 options(OutDec= ",")
@@ -6,9 +7,7 @@ options(OutDec= ",")
 polls <- read.csv("polls.csv")
 
 polls <- polls %>% 
-  mutate(
-    date = format(as.Date(c(paste(year, month, day, sep="-")), by = "days"))
-  )
+  mutate(date = make_date(year, month, day))
 
 for(i in c("a", "b", "c", "d", "e", "f", "g", "i", "k", "o", "p", "v", "oe", "aa")) {
   polls <- within(polls, {
