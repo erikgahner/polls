@@ -7,33 +7,21 @@ options(OutDec= ",")
 polls <- read.csv("polls.csv")
 
 polls <- polls %>% 
-  mutate(date = make_date(year, month, day))
-
-for(i in c("a", "b", "c", "d", "e", "f", "g", "i", "k", "o", "p", "v", "oe", "aa")) {
-  polls <- within(polls, {
-    assign(paste0("ci_max_", i), get(paste0("party_", i)) + 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
-  }
-  )
-}
-for(i in c("a", "b", "c", "d", "e", "f", "g", "i", "k", "o", "p", "v", "oe", "aa")) {
-  polls <- within(polls, {
-    assign(paste0("ci_min_", i), get(paste0("party_", i)) - 1.96 * sqrt(( get(paste0("party_", i)) * (100 - get(paste0("party_", i)))) / n))
-  }
-  )
-}
-
-
+  mutate(date = make_date(year, month, day),
+         across(starts_with("party"), ~ .x + 1.96 * sqrt((.x * (100 - .x)) / n), .names = "ci_max_{.col}"),
+         across(starts_with("party"), ~ .x - 1.96 * sqrt((.x * (100 - .x)) / n), .names = "ci_min_{.col}")
+         )
 
 #polls_use <- polls[polls$date > seq(as.Date(Sys.Date()), length = 2, by = "-12 months")[2],]
 polls_use <- polls %>% 
   arrange(desc(as.Date(date))) %>% 
   top_n(75, as.Date(date)) %>% 
-  mutate_at(vars(starts_with("ci_min")), ~ ifelse(.x < 0, 0.001, .x))
+  mutate_at(vars(starts_with("ci_min_party")), ~ ifelse(.x < 0, 0.001, .x))
 
 plot_party <- function(x, parti){
   ggplot(polls_use, aes_string(x="as.Date(date)", y=paste0("party_", x))) + 
     geom_smooth(se = FALSE, colour = "gray70", span = .3, size = 1) +
-    geom_errorbar(aes_string(colour = "pollingfirm", ymin = paste0("ci_min_", x), ymax = paste0("ci_max_", x)), alpha = .4) +
+    geom_errorbar(aes_string(colour = "pollingfirm", ymin = paste0("ci_min_party_", x), ymax = paste0("ci_max_party_", x)), alpha = .4) +
     geom_point(aes(colour = pollingfirm, shape = pollingfirm), size=2.5) +
     scale_colour_manual(breaks = c("Voxmeter", "Gallup", "YouGov", "Epinion", "Megafon", "Greens", "Norstat"),
                         values = c("#C74B4B", "#5C8F4A", "#DD7E3A", "#456491", "#183B66", rep("black", 2))) +
@@ -51,9 +39,9 @@ plot_party <- function(x, parti){
       ifelse(
         (with(
           polls_use, 
-          3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2 <= 0 | with(polls_use, max(get(paste0("party_", x)))) < 1, 
-        0, (with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)))/2), 
-      with(polls_use, max(get(paste0("ci_max_", x)), na.rm=TRUE)) + 0.2)) +
+          3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_party_", x)), na.rm=TRUE)))/2 <= 0 | with(polls_use, max(get(paste0("party_", x)))) < 1, 
+        0, (with(polls_use, 3*min(get(paste0("party_", x)), na.rm=TRUE)) - with(polls_use, max(get(paste0("ci_max_party_", x)), na.rm=TRUE)))/2), 
+      with(polls_use, max(get(paste0("ci_max_party_", x)), na.rm=TRUE)) + 0.2)) +
     theme_minimal(base_size = 12, base_family = "Barlow") %+replace% 
     theme(panel.grid.major.x = element_blank(), 
           panel.grid.minor.x = element_blank(), 
