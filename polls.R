@@ -73,10 +73,6 @@ png('figs/support-d.png', width = 800, height = 700, units = "px", res = 135)
 plot_party("d", "Nye Borgerlige")
 dev.off()
 
-png('figs/support-e.png', width = 800, height = 700, units = "px", res = 135)
-plot_party("e", "Borgerlisten")
-dev.off()
-
 png('figs/support-f.png', width = 800, height = 700, units = "px", res = 135)
 plot_party("f", "SF")
 dev.off()
@@ -95,10 +91,6 @@ dev.off()
 
 png('figs/support-o.png', width = 800, height = 700, units = "px", res = 135)
 plot_party("o", "Dansk Folkeparti")
-dev.off()
-
-png('figs/support-p.png', width = 800, height = 700, units = "px", res = 135)
-plot_party("p", "Stram Kurs")
 dev.off()
 
 png('figs/support-v.png', width = 800, height = 700, units = "px", res = 135)
