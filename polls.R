@@ -111,6 +111,7 @@ polls_use %>%
   filter(party != "party_g") %>% 
   ggplot(aes(x=as.Date(date), y=support, colour=party)) +
   geom_point(size=1, alpha=0.3) +
+  geom_hline(yintercept = 0) +
   geom_smooth(se=FALSE, method="loess", span = .3) +
   geom_hline(yintercept=2, linetype = "dashed") +
   labs(y = "Stemmer (%)",
